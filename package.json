@@ -1,0 +1,49 @@
+{
+  "name": "tauri-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.1.2",
+    "@ethersproject/units": "^5.1.0",
+    "@tauri-apps/api": "^1.2.0",
+    "@trezor/connect": "^9.0.0",
+    "@trezor/connect-web": "^9.0.0",
+    "@types/node": "18.15.10",
+    "@types/react": "18.0.29",
+    "@types/react-dom": "18.0.11",
+    "@web3-react/abstract-connector": "latest",
+    "@web3-react/authereum-connector": "latest",
+    "@web3-react/core": "latest",
+    "@web3-react/fortmatic-connector": "latest",
+    "@web3-react/frame-connector": "latest",
+    "@web3-react/injected-connector": "latest",
+    "@web3-react/lattice-connector": "latest",
+    "@web3-react/ledger-connector": "latest",
+    "@web3-react/magic-connector": "latest",
+    "@web3-react/network-connector": "latest",
+    "@web3-react/portis-connector": "latest",
+    "@web3-react/torus-connector": "latest",
+    "@web3-react/trezor-connector": "latest",
+    "@web3-react/walletconnect-connector": "latest",
+    "@web3-react/walletlink-connector": "latest",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "ethers": "^6.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
